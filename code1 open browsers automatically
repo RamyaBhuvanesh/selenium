@@ -1,0 +1,22 @@
+from selenium import webdriver
+
+def ramya_Firefox(url):
+    driver = webdriver.Firefox()
+    return driver.get(url)
+
+
+def ramya_Chrome(url):
+    driver = webdriver.Chrome()
+    return driver.get(url)
+
+
+def ramya_Edge(url):
+    driver = webdriver.Edge()
+    return driver.get(url)
+
+
+url = "https://www.guvi.com"
+
+ramya_Firefox(url)
+ramya_Chrome(url)
+ramya_Edge(url)
