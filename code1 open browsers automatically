@@ -15,7 +15,7 @@ def ramya_Edge(url):
     return driver.get(url)
 
 
-url = "https://www.guvi.com"
+url = "https://www.google.com"
 
 ramya_Firefox(url)
 ramya_Chrome(url)
